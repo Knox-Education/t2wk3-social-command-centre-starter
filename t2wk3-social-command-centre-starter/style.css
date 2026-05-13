@@ -1,0 +1,76 @@
+/* ═══════════════════════════════════════════════
+   KNOX SOCIAL COMMAND CENTRE — Starter CSS
+   Reference YOUR Brand Book for all design decisions!
+   ═══════════════════════════════════════════════ */
+
+/* Knox Brand Colours — from your Brand Book */
+:root {
+    --knox-blue: #1A5FAF;
+    --knox-blue-bright: #2B7DE9;
+    --knox-black: #0A0F1E;
+    --knox-dark-navy: #0D1528;
+    --knox-card-bg: #162036;
+    --knox-border: #1E3055;
+    --knox-white: #FFFFFF;
+    --knox-off-white: #E8EDF5;
+    --knox-muted: #8899B5;
+
+    /* Accent colours */
+    --accent-green: #22C55E;
+    --accent-purple: #8B5CF6;
+    --accent-orange: #F59E0B;
+    --accent-cyan: #06B6D4;
+
+    /* House colours (from Brand Book) */
+    --gillespie-maroon: #800020;
+    --macneil-black: #1A1A1A;
+    --adamson-green: #1B3A1B;
+    --angus-brown: #5C4033;
+}
+
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Calibri', Arial, sans-serif;
+    background-color: var(--knox-black);
+    color: var(--knox-off-white);
+    min-height: 100vh;
+}
+
+/* TODO: Style the rest of your Social Command Centre!
+   Use the CSS variables above to stay on-brand.
+
+   Suggested structure:
+   - header: Knox branding bar
+   - .post-creator: Left panel with inputs
+   - .preview-panel: Right panel with live preview
+   - .platform-tabs: Horizontal tab bar
+   - .voice-selector: Tone buttons
+   - .generate-section: AI generate button
+*/
+
+header {
+    background-color: var(--knox-dark-navy);
+    padding: 1rem 2rem;
+    border-bottom: 2px solid var(--knox-blue);
+}
+
+header h1 {
+    color: var(--knox-white);
+    font-size: 1.5rem;
+}
+
+header .subtitle {
+    color: var(--knox-muted);
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+main {
+    padding: 2rem;
+}
